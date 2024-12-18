@@ -1,10 +1,9 @@
-The input is:
+This code is formulated similar to competitive programming problems.
 
-num_proc num_resourc_types
-count_0 count_1 ..... count_i
-allocations_0 max_0
-allocation_1 max_1
-.
-.
-.
-allocations_n max_n
+The input starts with 2 intergers, n and m.
+
+n is the number of processes, m is the number of resources.
+
+The next line has m integers, the ammount available for each resource.
+
+The next n lines contains 2*m integers, the m allocation and m max needed for each process.
